@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Noto+Sans+JP:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Chela+One&family=Noto+Sans+JP:wght@100&display=swap');
+body {
+    background-color: #593437 !important;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #339179;
+    width: 100%;
+}
+a {
+    text-decoration: none !important;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color: #A62648 !important;
+    font-family: 'Chela One', cursive;
+}
+
+header ul li {
+    margin: 10px 50px 0 50px;
+    color: #A62648 !important;
+}
+header img {
+    height: 90px;
+}
+
+.caja img {
+    width: 50px;
+}
+
+h1 {
+    font-size: 35px;
+    color:#DDA361 !important;
+    font-family: 'Chela One', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    color: #DDA361 !important;
+    font-family: 'Chela One', cursive;
+}
+
+p {
+    font-size: 20px;
+    color: #FDE5C9;
+    font-family: 'Bree Serif', serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: #A62648;
+}
+
+.caja {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja p {
+    font-size: 16px;
+}
+
+#lista {
+    font-size: 16px;
+    color: #FDE5C9;
+    font-family: 'Bree Serif', serif;
+}
+
+.recursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 60px 10px 60px;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: #A62648;
+}
+
+.noticias {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulonoticia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedor img {
+    height: 50px;
+    background-color: #6e1029;
+    border-radius: 20%;
+}
+
+.container {
+    background-color: #A62648;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    color: #A62648;
+    font-family: 'Chela One', cursive;
+}
+.card-body a {
+    font-family: 'Bree Serif', serif;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.manga {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0 10px 20px;
+    width: 100%;
+}
+
+.acordion h2{
+    display: flex;
+    color: #6e1029;
+}
+
+.acordion-body p{
+    color: #A62648 !important;
+}
+
+.acordeon p{
+    color: #A62648;
+}
+
+.animeintro {
+    background-color: #6e1029;
+}
+
+.container-anime ul{
+        font-size: 20px;
+    color: #FDE5C9;
+    font-family: 'Bree Serif', serif;
+}
+
+.container-anime strong{
+            font-size: 20px;
+    color: #339179;
+    font-family: 'Bree Serif', serif;
+}
+
+.row {
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+
+.container-anime {
+    background-color: #6e1029;
+}
+
+.episodiosanime {
+        display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: #A62648;
+    justify-content: center;
+}
+

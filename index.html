@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>Hanako Kun</title>
+    
+</head>
+<body>
+    <header>
+        <div>
+             <img src="./Imágenes/banner hanako.jpeg" alt="Banner Hanako">
+        </div>
+        <nav>
+            <ul>
+                <a href="Personajes.html"><li>Personajes</li></a>
+                <a href="Historia.html"><li>Historia</li></a>
+                <a href="Manga.html"><li>Manga</li></a>
+                <a href="Anime.html"><li>Anime</li></a>
+            </ul> 
+        </nav>
+    </header>
+  
+    <div class="main">
+        <div class="caja">
+                <img src="./Imágenes/Mokke.webp" alt="Mokke">
+                <h1>Hanako kun</h1>
+                <p>Iro Aida, también conocido como Aidairo, escribe e ilustra este manga 
+                shōnen de Jibaku Shounen Hanako-kun desde el año 2015 en las páginas de la revista G Fantasy de Square-Enix. </p>
+        </div>
+
+        <div class="caja">
+                <img src="./Imágenes/Mokke.webp" alt="Mokke">
+                <h1>Producción</h1> 
+                <p>Masaomi Ando se encargó de dirigir el anime bajo el estudio de animación Lerche. 
+                Yasuhiro Nakanishi supervisó y escribió los guiones. Mayuka Itou diseñó los personajes; y Yuji Higa fué el productor de animación.</p>
+        </div>
+
+        <div class="caja">
+                <img src="./Imágenes/Mokke.webp" alt="Mokke">
+                <h1>Elenco</h1>
+                <p>También, se han revelado los seiyuus de los siguientes personajes:</p>
+                    <ul id="lista">
+                        <li>Megumi Ogata como Hanako-kun.</li>
+                        <li>Akari Kitō como Nene Yashiro.</li>
+                        <li>Shōya Chiba como Kou Minamoto.</li>
+                        <li>Yūma Uchida como Teru Minamoto.</li>
+                        <li>Minako Sato como Akane Aoi.</li>
+                    </ul>
+        </div>
+    </div>
+
+    <div class="recursos">
+        <div>
+            <h1>Ubicación</h1>
+            <p>Ubicación de un Panini Point centro, donde comprar los tomos del manga</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7525.148730209363!2d-99.14562905630372!3d19.430788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9e2577cb16d%3A0x1641d27345a5e144!2sTienda%20Panini%20Frikiplaza%20S%C3%B3tano!5e0!3m2!1ses!2smx!4v1689350469993!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div>
+            <h1>Trailer Oficial</h1>
+            <p>Trailer de la primera temporada del anime, estrenada en 2020</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5HhN15iuHfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="titulonoticia">    
+        <h1>NOTICIAS</h1>
+    </div>
+
+    <div class="contenedor">
+        <div class="noticias">
+            <h1>Reinicio del anime Toilet-bound Hanako-kun</h1>
+            <div id="contenido">
+                <p>La página web oficial del anime Toilet-bound Hanako-kun (Jibaku Shounen Hanako-kun) dio a conocer que el manga creado por Aidairo 
+                    recibirá una nueva adaptación animada. Contrario a lo que muchos esperaban no se tratará de una segunda temporada, 
+                    sino que hará borrón y cuenta nueva, comenzando desde el inicio de la historia. 
+                </p>
+            </div>
+            <button onclick='muestra_oculta("contenido")'class="btn btn-#6b122a" form="contenido" > <img src="./Imágenes/Mokke.webp" alt="mokke"></button>
+        </div>
+        <div class="noticias">
+            <h1>Ivrea nos trae "Hanako-kun después de clases"</h1>
+            <div id="contenido1">
+                <p>
+                    ¡Vaya sorpresa nos ha dado Ivrea! Este otoño la editorial publicará Hanako-kun después de clase. Nos mostrarán que Yashiro y compañía 
+                    no solo tienen vida dentro de los muros del colegio, sino que los podremos ver en su día a día fuera de la academia.
+                </p>
+            </div>
+            <button onclick='muestra_oculta("contenido1")' class="btn btn-#6b122a" form="contenido1" ><img src="./Imágenes/Mokke.webp" alt="mokke"></button>
+        </div>
+        <div class="noticias">
+            <h1>El manga Jibaku Shounen Hanako-kun supera 6 millones de copias en ciruclación</h1>
+            <div id="contenido2">
+                <p>
+                    En la portada de la quinta edición de este año de la revista Monthly G Fantasy de la editorial Square Enix se reveló que el manga escrito 
+                    e ilustrado por Iro Aida, Jibaku Shounen Hanako-kun (Toilet-bound Hanako-kun), ha superado las seis millones de copias en circulación acumuladas.
+                </p>
+            </div>
+            <button onclick='muestra_oculta("contenido2")' class="btn btn-#6b122a" form="contenido2" ><img src="./Imágenes/Mokke.webp" alt="mokke"></button>
+        </div>
+    </div>
+
+   <footer>
+    <p>&copy;Creado y Diseñado por Frida García, 2023</p>
+   </footer>
+   
+</body>
+</html>
